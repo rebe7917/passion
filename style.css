@@ -5,7 +5,7 @@
 img {
   width: 100%;
 }
-video{
+video {
   width: 100%;
 }
 /*menu*/
@@ -13,18 +13,20 @@ header {
   position: relative;
   background-color: rgb(44, 43, 43);
   display: flex;
-
+  padding: 3%;
+  place-content: center;
 }
 
 header nav a {
   color: rgb(238, 238, 103);
   text-decoration: none;
   font-size: 1rem;
+  
 }
 header nav ul {
   display: flex;
   list-style: none;
-  gap: 40px;
+  gap: 100px;
   align-content: center;
 }
 a:hover {
@@ -40,17 +42,39 @@ h3 {
   color: rgb(238, 238, 103);
   text-align: center;
 }
-
-#video{
- display: grid;
-  grid-template-columns:
-    repeat(auto-fit, minmax(200px, 1fr));
+#overskrift_1{
+  padding-top: 3%;
 }
 
 
-#youtube{
- display: grid;
-  grid-template-columns:
-    repeat(auto-fit, minmax(200px, 1fr));
-    place-items: center;
+/*#video {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}*/
+
+/*#youtube {
+  display: grid ;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: center;
+}*/
+
+
+
+#foto {
+ gap: 20px;
 }
+
+@media (min-width: 600px) {
+  #foto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+@media (min-width: 5000px) {
+#videoer{
+  display: grid;
+  gap: 10px;
+}
+}
+
