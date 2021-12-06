@@ -71,7 +71,7 @@ h1 {
  #section_1 {
     width: 700px;
     height: 900px;
-    margin-left:28%;
+    margin-left:35%;
  }
  
 }
@@ -113,5 +113,11 @@ iframe {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+#layoutdiagram{
+  width: 40%;
+  height: 40%;
+  margin-left:30%;
+  
 }
 /*--------------------------------------fotos---------------------------------------*/
